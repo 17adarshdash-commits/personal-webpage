@@ -1,0 +1,99 @@
+.main{
+    color:aqua;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Space Grotesk', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main .first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+.main .second img{
+    border-color: aqua;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 50%;
+}
+.main .second{
+    padding-left: 100px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    text-align: left;
+    gap:250px;
+    margin-bottom: 15px;
+}
+
+.second h2{
+    text-align: center;
+}
+
+.second a{
+    color: aqua;
+}
+.main .fourth{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 15px;
+    flex-direction: row;
+    gap:200px;
+    margin-bottom: 15px;
+}
+.main .fourth .cards{
+    display: flex;
+    justify-content: center;
+    gap:175px;
+    margin: 15px;
+    align-content: center;
+}
+
+.main .fourth .card{
+    padding:10px;
+    border-color: aqua;
+    border-width: 3px;
+    border-style: solid;
+    align-content: center;
+}
+
+.main h2 {
+    margin-bottom: 15px; 
+}
+
+.main .fifth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 300px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.main .fifth .z{
+    display: flex;
+    justify-content: space-around;
+    gap:300px;
+}
+
+.main .fifth .z div{
+    padding: 10px;
+    border-color: aqua;
+    border-width: 3px;
+    border-style: solid;
+    text-decoration: none;
+    color: aqua;
+}
+
