@@ -8,12 +8,53 @@
 
 .main .first{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
     margin-bottom: 2px;
+    padding-right: 25px;
+    padding-left: 775px;
 }
 
+.first button{
+    color: aqua;
+    background-color: black;
+    border-radius: 2px;
+    border-color: aqua;
+}
+
+.main.light-mode {
+    background-color: white;
+    color: black;
+}
+
+/* 2. Invert the button colors so it remains visible */
+.main.light-mode .first button {
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+
+/* 3. Change your profile picture border to black */
+.main.light-mode .second img {
+    border-color: black;
+}
+
+/* 4. Change the 'About Me' links to black */
+.main.light-mode .second a {
+    color: black;
+}
+
+/* 5. Change the Interest card borders to black */
+.main.light-mode .fourth .card {
+    border-color: black;
+}
+
+/* 6. Change the Favorite Website boxes and links to black */
+.main.light-mode .fifth .z div {
+    border-color: black;
+    color: black;
+}
 .main .second img{
     border-color: aqua;
     border-width: 3px;
@@ -53,7 +94,7 @@
 }
 .main .fourth .cards{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap:175px;
     margin: 15px;
     align-content: center;
